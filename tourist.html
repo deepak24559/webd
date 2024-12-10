@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Places in Himachal Pradesh</title>
+    <link rel="stylesheet" href="tourist.css">
+</head>
+<body> 
+    <video autoplay muted loop id="video">
+        <source src="video2.mp4">
+    </video>
+    <header class="header">
+        <h1>Explore Himachal Pradesh</h1>
+        <p>Discover the beauty of Shimla, Manali, and Dalhousie</p>
+    </header>
+    <main class="places-container">
+        <div class="place-card" id="shimla">
+            <a href="shimla.html" style="text-decoration: none;"> <h2>Shimla</h2>
+            <p>The Queen of Hills, famous for colonial architecture and lush greenery.</p>
+            <button onclick="showMore('Shimla')">Learn More</button></a>
+        </div>
+        <div class="place-card" id="manali">
+            <a href="manali.html" style="text-decoration: none;"> <h2>Manali</h2>
+            <p>A charming town known for snow-capped mountains and adventure sports.</p>
+            <button onclick="showMore('Manali')">Learn More</button></a>
+        </div>
+        <div class="place-card" id="dalhousie">
+           <a href="dalhousie.html" style="text-decoration: none;">  <h2>Dalhousie</h2>
+            <p>A peaceful retreat with scenic landscapes and colonial charm.</p>
+            <button onclick="showMore('Dalhousie')">Learn More</button></a>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Himachal Pradesh Tourism. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

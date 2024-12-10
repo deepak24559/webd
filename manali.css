@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style-type: none;
+}
+
+body{
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+
+#header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+
+#head p {
+    margin-top: 40px;
+    width: 45%;
+     margin-left: 10%;
+    font-size: 1.5rem;
+} 
+
+#reach h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+#reach ul li {
+    background-color: rgb(168, 131, 177);
+    height: 40vh;
+    width: 50vh;
+     margin-top: 30px;
+    border: 2px,solid,black;
+     margin-right: 40px;
+     border-radius: 20px;
+     padding: 40px;
+     font-size: 22px;
+}
+
+#reach ul li img{
+    padding: 20px;
+}
+
+ 
+
+#card11{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+#base2{
+margin-top: 50px;
+    height: 150vh;
+    width: 90%;
+    /* border: 2px,solid,black; */
+    margin-left: 60px;
+    
+    /* background-color: aqua; */
+    text-decoration: none;
+    border-radius: 40px;
+
+} 
+
+#base2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#base2 .base1 {
+     height: 25vh;
+    width: 85%;
+     margin-top: 30px;
+    border: 2px,solid,black;
+      background-color: rgb(178, 102, 102);
+     border-radius: 20px;
+     padding: 40px;
+     margin-left: 20px;
+     font-size: 22px;
+} 
+#base3{
+    margin-top: 50px;
+    height: 175vh;
+    width: 90%;
+    /* border: 2px,solid,black; */
+    margin-left: 60px;
+    
+    /* background-color: aqua; */
+    text-decoration: none;
+    border-radius: 40px;
+} 
+
+#base3 h2{
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 500;
+    padding: 40px;
+    font-style: italic;
+}
+
+#base3 ul li{
+
+    height: 25vh;
+    width: 85%;
+     margin-top: 30px;
+    border: 2px,solid,black;
+    background-color: rgb(52, 168, 93);
+     border-radius: 20px;
+     padding: 40px;
+     margin-left: 20px;
+     font-size: 22px;
+
+}
+#weather{
+     
+      height: 60vh;
+      width: 85%;
+       
+      
+       
+
+}
+
+#weather h2 {
+     font-size: 4rem;
+     font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+     
+}
+#weather p {
+    font-style: italic;
+    font-size: 1.5rem;
+     width: 50%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#imp{
+    margin-left: 30%;
+}  
+
+#imp h1{
+     font-size: 4rem;
+     font-weight: 400;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-right: 40%; */
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+
+#imp tr,th,td{
+     
+    border: 2px,solid,black;
+    padding: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    font-style: initial;
+}
